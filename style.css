@@ -29,11 +29,17 @@ body {
 h1 {
   letter-spacing: 2px;
   text-shadow: 2px 2px 5px black;
+  /* padding: 1rem; */
 }
 
 .main-title {
+  /* text-align: center;
+  font-size: 3rem; */
   text-align: center;
-  font-size: 3rem;
+    background: #bb5410;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.6);
 }
 
 ul {
