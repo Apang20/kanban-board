@@ -17,6 +17,8 @@ let backlogListArray = [];
 let progressListArray = [];
 let completeListArray = [];
 let onHoldListArray = [];
+let listArrays = []; 
+
 
 // Drag Functionality
 
@@ -31,17 +33,25 @@ function getSavedColumns() {
   } else {
     backlogListArray = ['Read a new book', 'Sit back and relax'];
     progressListArray = ['Work on projects', 'Review data structures'];
-    completeListArray = ['Go to the gym', 'Volunteer at APA'];
-    onHoldListArray = ['Netflix marathon'];
+    completeListArray = ['Go to the gym', 'Volunteer at Austin Pets Alive!', 'Drink half gallon of water'];
+    onHoldListArray = ['Watch Mythic Quest episode'];
   }
 }
 
+
 // Set localStorage Arrays
 function updateSavedColumns() {
-  localStorage.setItem('backlogItems', JSON.stringify(backlogListArray));
-  localStorage.setItem('progressItems', JSON.stringify(progressListArray));
-  localStorage.setItem('completeItems', JSON.stringify(completeListArray));
-  localStorage.setItem('onHoldItems', JSON.stringify(onHoldListArray));
+  listArrays = [backlogListArray, progressListArray, completeListArray, onHoldListArray];
+  const arrayNames = ['backlog', 'progress', 'complete', 'onHold']; 
+
+  arrayNames.forEach((arrayName, index) => {
+    localStorage.setItem(`${arrayName}Items`, JSON.stringify(listArray[index])); 
+  });
+
+  // localStorage.setItem('backlogItems', JSON.stringify(backlogListArray));
+  // localStorage.setItem('progressItems', JSON.stringify(progressListArray));
+  // localStorage.setItem('completeItems', JSON.stringify(completeListArray));
+  // localStorage.setItem('onHoldItems', JSON.stringify(onHoldListArray));
 }
 
 // Create DOM Elements for each list item
