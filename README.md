@@ -1,7 +1,7 @@
 # Kanban Board
 
 
-## [View Live!](https://apang20.github.io/music-player/) 
+## [View Live!](https://apang20.github.io/kanban-board/) 
 <img src="kanban.gif">
 
 
