@@ -35,7 +35,7 @@ function getSavedColumns() {
     backlogListArray = ['Research museums', 'Buy new book'];
     progressListArray = ['Work on projects', 'Review data structures'];
     completeListArray = ['Build kanban board app', 'Go to the gym'];
-    onHoldListArray = ['Watch new episode'];
+    onHoldListArray = ['Watch new episode', 'Fold laundry'];
   }
 }
 
