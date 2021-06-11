@@ -2,6 +2,8 @@
 
 html {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 :root {
@@ -18,7 +20,7 @@ body {
   /* background: url("https://media.giphy.com/media/Q6joirtIBHUsw/giphy.gif"); */
   /* background: url("https://media.giphy.com/media/uBTWyINWTrWz6/giphy.gif"); */
   background-size: cover;
-  background-position: 50% 60%;
+  /* background-position: 50% 60%; */
   background-attachment: fixed;
   color: white;
   font-family: Quicksand, sans-serif;
@@ -27,18 +29,18 @@ body {
 
 h1 {
   letter-spacing: 2px;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 12px 2px 10px black;
   /* padding: 1rem; */
 }
 
 .main-title {
-  /* text-align: center;
-  font-size: 3rem; */
   text-align: center;
-    background: #bb5410;
+  /* font-size: 3rem; */
+  text-align: center;
+     background: #1b6464; 
     color: white;
     padding: 10px;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.6);
+    box-shadow: 0 14px 14px rgba(0,0,0,0.6); */
 }
 
 ul {
