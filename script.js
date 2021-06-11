@@ -32,10 +32,10 @@ function getSavedColumns() {
     completeListArray = JSON.parse(localStorage.completeItems);
     onHoldListArray = JSON.parse(localStorage.onHoldItems);
   } else {
-    backlogListArray = ['Release the course', 'Sit back and relax'];
-    progressListArray = ['Work on projects', 'Listen to music'];
-    completeListArray = ['Being cool', 'Getting stuff done'];
-    onHoldListArray = ['Being uncool'];
+    backlogListArray = ['Research museums', 'Buy new book'];
+    progressListArray = ['Work on projects', 'Review data structures'];
+    completeListArray = ['Build kanban board app', 'Go to the gym'];
+    onHoldListArray = ['Watch new episode'];
   }
 }
 
