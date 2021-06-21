@@ -1,4 +1,4 @@
-# Kanban Board :pushpin:
+# :white_check_mark: Kanban Board :pushpin:
 
 
 ## [View Live!](https://apang20.github.io/kanban-board/) 
