@@ -8,7 +8,7 @@
 
 
 ## Overview
-A responsive kanban application with drag and drop animation
+A responsive kanban application with drag and drop animation to help users organize and track their tasks. 
 
 
 ## Technologies 
