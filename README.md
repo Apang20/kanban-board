@@ -1,4 +1,4 @@
-# Kanban Board
+# Kanban Board :pushpin:
 
 
 ## [View Live!](https://apang20.github.io/kanban-board/) 
